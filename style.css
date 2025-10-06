@@ -8,14 +8,22 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+.headercontainer {
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 12px;
+    padding: 0 24px;
     background-color: #1F2937;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -32,12 +40,18 @@ ul {
     color: #E5E7Eb;
 }
 
+.herocontainer {
+    background-color: #1F2937;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 12px;
-    background-color: #1F2937;
+    padding: 0 24px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero h1 {
@@ -61,19 +75,32 @@ ul {
 
 .righthero {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex: 1;
+}
+
+.righthero img {
+    max-width: 100%;  
+    height: auto;   
+    display: block;  
 }
 
 button {
     background-color: #3882F6;
 }
 
+.infocontainer {
+
+}
+
 .info {
     display: flex;
     justify-content: center;
-    padding: 0 12px;
+    padding: 0 24px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .infotitle {
@@ -88,6 +115,22 @@ button {
 .items {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imgitem {
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    
+    border: 5px solid #3882F6;
+}
+
+.quotecontainer {
+    background-color: #E5E7EB;
 }
 
 .quote {
@@ -95,8 +138,10 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 12px;
-    background-color: #E5E7EB;
+    padding: 0 24px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .quotetext {
@@ -110,13 +155,19 @@ button {
     margin-left: auto;
 }
 
+.contactcontainer {
+    background-color: #3882F6;
+}
+
 .contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 12px;
-    margin: 60px 0;
-    background-color: #3882F6;
+    padding: 0 24px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
 .contactbox {
