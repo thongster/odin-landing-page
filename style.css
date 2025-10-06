@@ -148,7 +148,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 24px;
+    padding: 96px 24px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -158,11 +158,16 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    margin: 0;
+    padding: 0 36px;
+    font-style: italic;
 }
 
 .quotethor {
     display: flex;
-    margin-left: auto;
+    margin: 0 60px 0 auto;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .contactcontainer {
