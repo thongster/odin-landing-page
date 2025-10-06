@@ -58,3 +58,20 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.quotetext {
+
+}
+
+.quotethor {
+    display: flex;
+    margin-left: auto;
+}
