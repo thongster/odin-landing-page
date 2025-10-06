@@ -75,3 +75,24 @@ ul {
     display: flex;
     margin-left: auto;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.footerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerleft {
+
+}
+
+.footerright {
+    
+}
