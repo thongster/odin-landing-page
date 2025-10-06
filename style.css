@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-    border: 2px solid red;
     font-family: Roboto, sans-serif;
 }
 
@@ -178,11 +177,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 24px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    
+    padding: 96px 24px;
 }
 
 .contactbox {
@@ -192,6 +187,10 @@ button {
     background-color: #3882F6;
     padding: 24px 80px;
     gap: 60px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .contactleft {
